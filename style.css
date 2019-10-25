@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0px;
+    font-size: 18px;
+}
+
+a {
+     color: lightblue;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    padding: 5px;
+    border-bottom: 1px solid lightgray;
+}
+
+#header {
+    background-color: lightgray;
+    font-size: 0.8rem;
+    padding: 20px;
+    font-style: italic;
+}
+
+#solution {
+    background-color: black;
+    color: white;
+    font-size: 0.8rem;
+    padding: 20px;
+    font-style: italic;
+}
+
+#main{
+    padding: 20px;
+}
+
+#months{
+    padding: 20px;
+}

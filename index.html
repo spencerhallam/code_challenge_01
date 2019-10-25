@@ -1,28 +1,43 @@
 <!Doctype html>
 <head>
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>    
+
 <body onload="getCustPointsReport()">
-    <div id="main">
-    <h1>Points Earned Per Customer By Month</h1>
-    <p><em>Name | Customer ID | Month of the Year |  Points Earned</em></p>
-     
+    <div id="header">
+        <h3>ASSIGNMENT</h3>
+        <p>A retailer offers a rewards program to its customers, awarding points based on each recorded purchase.</p>
+        <p>Interview coding assignment below.</p>
+        <p>A customer receives 2 points for every dollar spent over $100 in each transaction, plus 1 point for every dollar spent over $50 in each transaction</p>
+        <p>(e.g. a $120 purchase = 2x$20 + 1x$50 = 90 points).</p>
+        <p>Given a record of every transaction during a three month period, calculate the reward points earned for each customer per month and total.</p>
+        <p>Make up a data set to best demonstrate your solution</p>
+        <p>Check solution into GitHub</p>
     </div>
-<script src="functions.js"></script>
+
+    <div id="solution">
+        Solution by Spencer Hallam   (   <a href="https://github.com/spencerhallam" target="_blank"><em>GitHub</em></a>   |   <a href="http://savvywebdev.com" target="_blank"><em>Projects Portfolio</em> )</a>
+    </div>
+
+    <div id="main">
+        <ul id="summary">
+            <h2>Total Customer Points Earned During Entire Period (Aug, Sept, & Oct)</h2>
+            <p><em>Customer ID | Name | Month |  Rewards Points Earned</em></p>  
+            <!-- JS will load "li" tags here -->
+
+        </ul>
+    </div>
+    
+    <div id="months">
+            <ul id="month-tots">
+                <h2>Points Earned Per Customer By Month (Aug, Sept, & Oct)</h2>
+                <p><em>Customer ID | Name | Month |  Rewards Points Earned</em></p>
+                <!-- JS will load "li" tags here -->
+            </ul>
+    </div>
+   
+    <script src="functions.js"></script>
+
 </body>
+
 </html>
-
-<!-- ASSIGNMENT
-
-A retailer offers a rewards program to its customers, awarding points based on each recorded purchase.
-
-Interview coding assignment below.
-
-A customer receives 2 points for every dollar spent over $100 in each transaction, plus 1 point for every dollar spent over $50 in each transaction
-
-(e.g. a $120 purchase = 2x$20 + 1x$50 = 90 points).
-
-Given a record of every transaction during a three month period, calculate the reward points earned for each customer per month and total.
-
-Make up a data set to best demonstrate your solution
-Check solution into GitHub -->
